@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym.me</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <figure>
+                <img src="img/logo.png" alt="logo gym.me">
+            </figure>
+            <div class="menu">
+                <ul>
+                    <li><a href="#quem-somos-container">Quem Somos</a></li>
+                    <li><a href="#servicos-container">Serviços</a></li>
+                    <li><a href="#parceiros-container">Parceiros</a></li>
+                    <li><a href="#contato-container">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="nav-mobile">
+            <figure>
+                <img src="img/logo.png" alt="logo gym.me">
+            </figure>
+            <figure>
+                <img src="img/mobilebutton.png" alt="">
+            </figure>
+        </nav>
+
+        <section class="slogan-container">
+            <h1>A melhor parte do seu dia <span>- dê o melhor de si.</span></h1>
+            <div class="sub-slogan-container">
+                <p>Provemos um treino sério mas divertido em um espaço seguro.</p>
+                <button>ENTRE AGORA</button>
+
+            </div>
+        </section>
+
+        <figure class="redes-sociais">
+            <a href="#"> <img src="img/header/twitter.png" alt=""></a>
+            <a href="#"> <img src="img/header/instagram.png" alt=""></a>
+            <a href="#"> <img src="img/header/facebook.png" alt=""></a>
+        </figure>
+    </header>
+
+    <main>
+        <article id="quem-somos-container">
+            <section class="quem-somos">
+                <div class="titulos-img">
+                    <img src="img/quem-somos/fa-solid_user-friends.png" alt="">
+                    <h2>Quem somos<span>?</span></h2>
+                </div>
+                <p>We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff, and premier
+                    exercise
+                    equipment, which supports our members in meeting their individual fitness goals.<br><br />The
+                    strength
+                    of our heart-felt identity is utilized to inspire every person that steps foot into ourgyms tobetter
+                    themselves.</p>
+                <button>ENTRE AGORA <img src="img/quem-somos/seta.png" alt=""></button>
+            </section>
+        </article>
+
+        <article id="servicos-container">
+            <div class="titulos-img">
+                <img src="img/servicos/clarity_calendar-solid.png" alt="">
+                <h2 class="serv-h2">Programa de Treinos<span>.</span></h2>
+            </div>
+
+            <figure>
+                <img src="img/servicos/boxing.png" alt="">
+                <img src="img/servicos/bodypumb.png" alt="">
+                <img src="img/servicos/yoga.png" alt="">
+            </figure>
+
+        </article>
+
+        <article id="parceiros-container">
+            <div class="titulos-img">
+                <img class="parc-img" src="img/PriceTag Icon.png" alt="">
+                <h2 class="serv-h2">Parceiros<span>.</span></h2>
+            </div>
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/parceiros/image1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/parceiros/image2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/parceiros/image3.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/parceiros/image4.png" alt=""></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </article>
+
+        <section id="contato-container">
+            <div class="titulos-img">
+                <img class="parc-img" src="img/Speech Icon.png" alt="">
+                <h2 class="serv-h2">Contato<span>.</span></h2>
+            </div>
+            <div class="form-img-container">
+                <form action="">
+                    <input type="text" placeholder="Nome">
+                    <input type="tel" placeholder="Telefone">
+                    <input type="email" placeholder="Email">
+                    <input class="text" type="text" placeholder="Escreva sua mensagem">
+                    <div>
+                        <input class="butt-envi" type="button" value="ENVIAR">
+                    </div>
+                </form>
+
+                <img src="img/contato/img.png" alt="">
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <figure><img src="img/logo.png" alt=""></figure>
+        <p>ProSEmpre BETA - EJECT © 2022.1</p>
+    </footer>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="iniswiper.js"></script>
+</body>
+
+</html>

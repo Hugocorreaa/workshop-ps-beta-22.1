@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FCFCFF ;
+
+    font-family: 'Inter', sans-serif;
+}
+
+/* ===== Header ===== */
+
+header{
+    height: auto;
+
+    background-color: #131316 ;
+
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+
+    padding-bottom: 70px;
+}
+
+header nav{
+    height: 63px;
+
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 80px;
+
+}
+
+#nav-mobile{
+    display: none;
+}
+
+nav ul{
+    display: flex;
+
+    font-size: 16px;
+
+    gap: 40px;
+}
+
+.slogan-container{
+    height: 372px;
+    width: 560px;
+
+    margin-top: 178px;
+    margin-left: 9%;
+}
+
+.slogan-container h1{
+    color: white;
+
+    font-size: 60px;
+}
+
+.slogan-container h1 span{
+    color: #4AE290;
+}
+
+.slogan-container .sub-slogan-container{
+    width: 415px;
+
+    color: #DEDEE3;
+
+    font-family: Open Sans;
+    font-size: 24px;
+
+    margin: 32px 0;
+}
+
+.slogan-container .sub-slogan-container button{
+    height: 49px;
+    width: 191px;
+
+    background-color: white;
+    border: none;
+
+    color: #131316;
+
+    cursor: pointer;
+
+    font-family: Inter;
+    font-weight: bold;
+
+
+    margin: 32px 0px
+}
+
+header .redes-sociais{
+    display: flex;
+    justify-content: right;
+
+    gap: 20px;
+
+    margin-right: 15%;
+}
+
+/* ===== Quem Somos? ====== */
+
+#quem-somos-container{
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 100px;
+    padding-bottom: 100px ;
+}
+
+.quem-somos{
+    height: 428px;
+    width: 768px;
+
+
+}
+
+.titulos-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.titulos-img h2{
+    font-weight: 800;
+    font-size: 50px;
+
+    margin-left: -100px;
+
+}
+
+.titulos-img span{
+    color: #4AE290;
+}
+
+.quem-somos p{
+
+    color: #595962;
+
+    font-family: Open sans;
+    font-weight: 400;
+    font-size: 20px;
+
+    margin-top: 32px;
+}
+
+.quem-somos button{
+    background: none ;
+    border: none;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 14px;
+
+    margin-top: 49px;
+}
+
+/* ===== Serviços ====== */
+
+#servicos-container{
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+
+
+}
+
+#servicos-container .serv-h2{
+    margin-left: -60px;
+}
+
+#servicos-container figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+    margin-top: 127px;
+
+    padding-bottom: 120px;
+}
+
+
+/* ====== Parceiros ====== */
+#parceiros-container{
+    height: auto;
+    padding-bottom: 180px;
+}
+
+#parceiros-container .parc-img{
+    margin-right: 65px;
+    padding-bottom: 80px;
+}
+
+#parceiros-container .swiper {
+    width: 90%;
+    height: 300px;
+
+    margin-top: 50px;
+}
+
+
+.swiper-pagination-bullet-active{
+    background-color: black!important;
+    
+}
+
+
+/* ===== Contato ====== */
+#contato-container{
+    height: auto;
+    
+}
+
+.form-img-container{
+    height: 611px;
+
+    background-color: #131316;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 126px;
+}
+
+.form-img-container form{
+    width: 535px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    padding-top: 59px;
+    padding-left: 6%;
+}
+
+form input{
+    height: 58px;
+
+    background: #EEEEEE;
+    border: 1px solid #C5C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+form .text{
+    height: 238px;
+}
+
+form .butt-envi{
+    height: 46px;
+    width: 138px;
+
+    background: #4AE290;
+    border: none;
+
+    color: white;
+
+    cursor: pointer;
+
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+form div{
+    display: flex;
+    justify-content: right;
+}
+
+.form-img-container img{
+    padding-right: 10%;
+
+    margin-top: -100px;
+}
+
+/* ==== Medias Queries */
+
+@media (max-width: 1348px){
+    #parceiros-container .swiper {
+        width: 80%;
+        height: 300px;
+    
+    }
+}
+
+@media (max-width: 1015px){
+    #parceiros-container .swiper {
+
+        height: 300px;
+    
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1162px){
+    .form-img-container img{
+        width: 50%;
+        margin-right: -5%;
+
+    }
+}
+
+@media (max-width: 992px){
+    header nav{
+        display: none;
+    }
+
+    header #nav-mobile{
+        height: 63px;
+
+        color: white;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 20px 80px;
+    
+    }
+
+    .quem-somos p{
+        margin: 30px  20px;
+    }
+
+
+    .form-img-container img{
+        display: none;
+    }
+
+    .form-img-container{
+        justify-content: center;
+    }
+
+    .form-img-container form{
+
+
+        padding-right: 5%;
+    }
+}
+
+
+@media (max-width: 648px){
+    .slogan-container{
+        width: 80%;
+
+        margin-top: 20px;
+    }
+
+    .slogan-container h1{
+        font-size: 40px;
+    }
+
+    .slogan-container .sub-slogan-container{
+        width: 100%;
+
+        font-size: 20px;
+    
+    }
+
+    header .redes-sociais a img{
+        width: 80%;
+    }
+
+    header .redes-sociais{
+        margin-top: 60px;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 436px){
+    #servicos-container{
+        padding-top: 100px;
+    }
+}
+/* ====== Footer ====== */
+footer{
+    height: 113px;
+
+    background-color: #131316;
+
+    color: #9797A1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 12px;
+
+    padding: 0 30px;
+}
