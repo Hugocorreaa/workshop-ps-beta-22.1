@@ -358,6 +358,8 @@ form div{
     }
 
 
+
+
     .form-img-container img{
         display: none;
     }
@@ -371,6 +373,7 @@ form div{
 
         padding-right: 5%;
     }
+
 }
 
 
@@ -400,6 +403,14 @@ form div{
         margin-top: 60px;
         gap: 10px;
     }
+
+
+}
+
+@media(max-width: 515px){
+    .swiper-slide img{ max-width:100%;height:auto; }
+
+
 }
 
 
